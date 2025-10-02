@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>吃啥选择器</title>
+	<meta name="keywords" content="吃啥选择器" />
+	<meta name="description" content="吃啥选择器" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/layui.css" media="all">
+	<link rel="shortcut icon" href="https://www.wapriaily.com/image/wapriaily.ico" type="image/x-icon">
+	<div id='wx_pic' style='margin:0 auto;display:none;'>
+		<img src='https://blog.wapriaily.com/image/wapriaily.ico' />
+	</div>
+</head>
+
+<body>
+	<div class="bg"></div>
+	<div id="temp_container"></div>
+	<div id="wrapper">
+		<h1 class="title">今天<span class="time">午饭</span>吃<b class="what">神马</b><span class="punctuation">？</span></h1>
+		<span id="start"><span>开始</span></span>
+		<p class="os"></p>
+		<span class="tip">点击可以切换饭点~</span> <br>
+	</div>
+	<div id="toggle"><span data-type="human" class="selected">正常人类</span><span data-type="monster">非正常人类</span>
+		<div class="hb"></div>
+	</div>
+	<div style="position:absolute;bottom:5px; width:100%; text-align:center;">
+
+	</div>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/app.min.js"></script>
+	<script>
+		var _hmt = _hmt || [];
+	</script>
+	<div style="display:none">
+		<!-- <script src="js/z_stat.js" language="JavaScript"></script> -->
+		<script src="js/layui.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			(function autoHeight() {
+				var b_width = Math.max(document.body.scrollWidth, document.body.clientWidth);
+				var b_height = Math.max(document.body.scrollHeight, document.body.clientHeight);
+				var c_iframe = document.getElementById("c_iframe");
+				// c_iframe.src = c_iframe.src + "#" + b_width + "|" + b_height;  // 这里通过hash传递b.htm的宽高
+			})();
+		</script>
+	</div>
+</body>
+
+</html>
